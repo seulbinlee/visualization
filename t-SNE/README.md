@@ -12,7 +12,9 @@ It converts similarities between data points into **probabilities** and tries to
 ### `fit_transform(X, y=None)`
 Fit `X` into an embedded space and return that transformed output
 **Parameters**
-* X : {array-liek, sparse matrix} of shape {n_samples, n_features} or {n_samples, n_samples}
+* X : {array-like, sparse matrix} of shape {n_samples, n_features} or {n_samples, n_samples}
 * y: None
+
+
 **Returns**
 * X_new : ndarray of shape (n_samples, n_components) - Embedding of the training data in the low-dimensional space
