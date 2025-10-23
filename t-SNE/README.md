@@ -20,3 +20,9 @@ Fit `X` into an embedded space and return that transformed output
 
 **Returns**
 * X_new : ndarray of shape (n_samples, n_components) - Embedding of the training data in the low-dimensional space
+---
+### `add_subplot`
+Draw multiple graphs 
+
+
+
